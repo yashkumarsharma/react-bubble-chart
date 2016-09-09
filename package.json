@@ -1,5 +1,5 @@
 {
-  "name": "react-bubble-chart",
+  "name": "react-bubble-chart-wi",
   "version": "0.3.0",
   "description": "A React+D3 animated bubble chart",
   "main": "lib/ReactBubbleChart.js",
@@ -32,7 +32,7 @@
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/kauffecup/react-bubble-chart/issues"
+    "url": "https://github.com/yashkumarsharma/react-bubble-chart/issues"
   },
-  "homepage": "https://github.com/kauffecup/react-bubble-chart"
+  "homepage": "https://github.com/yashkumarsharma/react-bubble-chart"
 }

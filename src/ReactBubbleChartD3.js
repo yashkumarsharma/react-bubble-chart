@@ -267,7 +267,7 @@ export default class ReactBubbleChartD3 {
           else size = 'large';
           return 'bubble-label ' + size
         })
-        .text(d => d.displayText || d._id)
+        .html(d => d.displayText || d._id)
         .on('click', (d,i) => {d3.event.stopPropagation(); props.onClick(d)})
         .on('mouseover', this._tooltipMouseOver.bind(this, color, el))
         .on('mouseout', this._tooltipMouseOut.bind(this))
